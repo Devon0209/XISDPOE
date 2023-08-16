@@ -12,6 +12,7 @@ import Grid from '@mui/material/Grid';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import ForgetPassword from './ForgetPassword';
 
 function Copyright(props: any) {
   return (
@@ -108,7 +109,7 @@ export default function SignInSide() {
               </Button>
               <Grid container>
                 <Grid item xs>
-                  <Link href="#" variant="body2">
+                  <Link href=".\ForgetPassword" variant="body2">
                     Forgot password?
                   </Link>
                 </Grid>
